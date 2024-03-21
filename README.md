@@ -43,6 +43,10 @@ for i in moves:
 ### Videos
 
 
+
+https://github.com/TheArmega/Practica-Gymnasium/assets/38068010/a0e82cb7-4b5f-4341-9a92-bac113f8a8e2
+
+
 ## Implementacion del algoritmo BFS
 Mediante la implementación del algoritmo BFS consigo que se vaya de un punto A a un punto B por el camino más corto. Este algoritmo toma como 0 el coste de cada nodo que va visitando y tiene en cuenta los obstáculos.
 
@@ -142,6 +146,15 @@ def addDirection(direction, directions):
 
 ### Videos
 
+
+https://github.com/TheArmega/Practica-Gymnasium/assets/38068010/ec0913ab-e5f0-4ee2-aca9-fc50d9427e20
+
+
+
+https://github.com/TheArmega/Practica-Gymnasium/assets/38068010/4bcd67d6-8590-4268-8528-e4c0d9675b11
+
+
+
 ## Movernos con las teclas de dirección
 En este scrip lo que hago es habilitar el movimiento del punto por el mapa con las teclas de dirección, habilitando así la navegación interactiva.
 
@@ -190,6 +203,12 @@ while validation:
 ```
 ### Videos
 
+
+
+https://github.com/TheArmega/Practica-Gymnasium/assets/38068010/e131825d-d5af-4192-9fb8-95a6fdef6f0f
+
+
+
 ## Juego de recoger todos los puntos
 He creado un script que permite manejar el punto con las teclas de direcciones. El objetivo es recoger todos los puntos amarillos del mapa y luego ir a la meta. Hasta que no hayamos recogido todos los puntos amarillos no podremos llegar a la meta.
 ### Código
@@ -212,6 +231,14 @@ elif candidate_state_tag == 4:  # point
 ```
 ### Videos
 
+
+
+
+https://github.com/TheArmega/Practica-Gymnasium/assets/38068010/b45f0b81-3f37-498a-a15d-da7fe5f3b738
+
+
+
+
 ## Juego de esquivar a los enemigos
 En este script he creado un juego en el que hay que manejar el punto con las flechas de dirección para llegar al punto final esquivando a los enemigos, señalados con puntos azules.
 ### Código
@@ -228,3 +255,7 @@ elif candidate_state_tag == 5:  # monster
    print("¡Te encontraste con un monstruo! ¡Perdiste!")
 ```
 ### Videos
+
+
+https://github.com/TheArmega/Practica-Gymnasium/assets/38068010/9ed1dfe9-aed5-42c7-9d62-4f08566c4185
+
