@@ -25,8 +25,7 @@ Para el desarrollo de esta práctica he incluido las siguientes implementaciones
 ## Movernos de un punto A a un punto B
 Para poder llevar a cabo este scrip he seguido el script de ejemplo dado por el enunciado de la práctica. De esta manera se va de esquina a esquina en el mapa ``mapa2.csv''.
 
-```
-python
+```python
 # Define una serie de movimientos predefinidos
 moves = [DOWN_RIGHT, RIGHT, DOWN_RIGHT, RIGHT, DOWN_RIGHT, RIGHT, DOWN_RIGHT, RIGHT, DOWN_RIGHT, RIGHT, DOWN_RIGHT, RIGHT, DOWN_RIGHT, RIGHT, RIGHT]
 
